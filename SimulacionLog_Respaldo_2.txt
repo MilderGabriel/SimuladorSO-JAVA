@@ -1,0 +1,23 @@
+══════════════════════════════════════════════════════════════════════════════════════════
+  SIMULACIÓN SO  –  2026/07/05 21:12:58
+══════════════════════════════════════════════════════════════════════════════════════════
+PROCESO              CUANTUM    ESTADO                 TRANSICIÓN             PRIORIDAD  RECURSO         MEMORIA   
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1                    1          Listo                  Despachado             1          —               48 Kb     
+2                    10         Listo                  Despachado             6          —               78 Kb     
+1                    0          Ejecución              Terminado              1          —               48 Kb     
+3                    12         Listo                  Despachado             3          —               72 Kb     
+2                    5          Ejecución              Bloqueado              6          Ratón           78 Kb     
+4                    10         Listo                  Despachado             1          —               13 Kb     
+1                    0          Ejecución              Terminado              1          —               48 Kb     
+3                    7          Ejecución              Vuelve a cola          3          Op. matemática  72 Kb     
+5                    12         Listo                  Despachado             3          —               71 Kb     
+2                    5          Bloqueado              Bloqueado              6          —               78 Kb     
+2                    5          Bloqueado              Despertar              6          —               78 Kb     
+4                    5          Ejecución              Vuelve a cola          1          Op. matemática  13 Kb     
+5                    7          Ejecución              Vuelve a cola          3          Op. matemática  71 Kb     
+3                    7          Listo                  Despachado             3          —               72 Kb     
+2                    5          Listo                  Despachado             6          —               78 Kb     
+3                    2          Ejecución              Bloqueado              3          Bocinas         72 Kb     
+4                    5          Listo                  Despachado             1          —               13 Kb     
+2                    0          Ejecución              Terminado              6          —               78 Kb     

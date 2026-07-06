@@ -18,7 +18,7 @@ public class GestorMemoria {
     static void limpiarSlots() { Arrays.fill(slots, 0f); }
 
     static int generarTamano() {
-        return (int)(Math.random() * 251 + 5);
+        return (int)(Math.random() * 300 + 150);
     }
 
     static int convertirAKb(int mb) {

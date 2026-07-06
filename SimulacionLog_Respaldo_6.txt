@@ -1,0 +1,37 @@
+══════════════════════════════════════════════════════════════════════════════════════════
+  SIMULACIÓN SO  –  2026/07/05 21:19:43
+══════════════════════════════════════════════════════════════════════════════════════════
+PROCESO              CUANTUM    ESTADO                 TRANSICIÓN             PRIORIDAD  RECURSO         MEMORIA   
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1                    6          Listo                  Despachado             4          —               85 Kb     
+2                    11         Listo                  Despachado             5          —               48 Kb     
+1                    1          Ejecución              Vuelve a cola          4          Op. matemática  85 Kb     
+3                    9          Listo                  Despachado             7          —               4 Kb      
+2                    6          Ejecución              Bloqueado              5          Impresora       48 Kb     
+3                    4          Ejecución              Vuelve a cola          7          Op. matemática  4 Kb      
+1                    1          Listo                  Despachado             4          —               85 Kb     
+4                    14         Listo                  Despachado             3          —               6 Kb      
+2                    6          Bloqueado              Bloqueado              5          —               48 Kb     
+2                    6          Bloqueado              Suspendido-bloqueado   5          —               48 Kb     
+1                    0          Ejecución              Terminado              4          —               85 Kb     
+4                    9          Ejecución              Vuelve a cola          3          Op. matemática  6 Kb      
+3                    4          Listo                  Despachado             7          —               4 Kb      
+5                    2          Listo                  Despachado             7          —               45 Kb     
+1                    0          Ejecución              Terminado              4          —               85 Kb     
+2                    6          Suspendido-bloqueado   Suspendido-bloqueado   5          —               48 Kb     
+2                    6          Suspendido-bloqueado   Bloqueado              5          —               48 Kb     
+3                    0          Ejecución              Terminado              7          —               4 Kb      
+5                    0          Ejecución              Terminado              7          —               45 Kb     
+4                    9          Listo                  Despachado             3          —               6 Kb      
+6                    14         Listo                  Despachado             7          —               74 Kb     
+7                    13         Listo                  Despachado             10         —               81 Kb     
+3                    0          Ejecución              Terminado              7          —               4 Kb      
+5                    0          Ejecución              Terminado              7          —               45 Kb     
+4                    4          Ejecución              Vuelve a cola          3          Op. matemática  6 Kb      
+6                    9          Ejecución              Bloqueado              7          Impresora       74 Kb     
+8                    2          Listo                  Despachado             1          —               39 Kb     
+2                    6          Bloqueado              Bloqueado              5          —               48 Kb     
+2                    6          Bloqueado              Bloqueado              5          —               48 Kb     
+2                    6          Bloqueado              Bloqueado              5          —               48 Kb     
+2                    6          Bloqueado              Despertar              5          —               48 Kb     
+7                    8          Ejecución              Bloqueado              10         Teclado         81 Kb     

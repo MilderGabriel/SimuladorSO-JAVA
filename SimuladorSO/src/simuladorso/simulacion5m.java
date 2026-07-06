@@ -54,7 +54,7 @@ public class simulacion5m extends JPanel {
     private final GestorMemoria gestorRAM = new GestorMemoria();
 
     private static ArrayList<Proceso> procesos = new ArrayList<>();
-    private static int totalProcesos = (int) (Math.random() * 100 + 1);
+    static int totalProcesos = (int) (Math.random() * 100 + 1);
     private static int procesosElim = 0;
     private static int contadorTabla = 0;
     private static int memoriaVirtual = 0;
@@ -291,7 +291,7 @@ public class simulacion5m extends JPanel {
 
     private void accionVelocidad() {
         try {
-            int v = Integer.parseInt(txtVelocidad.getText().trim());
+            double v = Double.parseDouble(txtVelocidad.getText().trim().replace(",", "."));
             if (v < 0 || v > 500) {
                 mostrarMensaje("Velocidad fuera de rango (0–500 ms).");
                 return;

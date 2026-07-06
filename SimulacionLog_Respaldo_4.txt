@@ -1,0 +1,123 @@
+══════════════════════════════════════════════════════════════════════════════════════════
+  SIMULACIÓN SO  –  2026/07/05 21:17:51
+══════════════════════════════════════════════════════════════════════════════════════════
+PROCESO              CUANTUM    ESTADO                 TRANSICIÓN             PRIORIDAD  RECURSO         MEMORIA   
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1                    11         Listo                  Despachado             10         —               17 Kb     
+2                    9          Listo                  Despachado             5          —               18 Kb     
+1                    6          Ejecución              Vuelve a cola          10         Op. matemática  17 Kb     
+3                    6          Listo                  Despachado             2          —               11 Kb     
+2                    4          Ejecución              Bloqueado              5          Teclado         18 Kb     
+3                    1          Ejecución              Bloqueado              2          Teclado         11 Kb     
+1                    6          Listo                  Despachado             10         —               17 Kb     
+4                    14         Listo                  Despachado             9          —               72 Kb     
+2                    4          Bloqueado              Bloqueado              5          —               18 Kb     
+2                    4          Bloqueado              Despertar              5          —               18 Kb     
+5                    14         Listo                  Despachado             8          —               58 Kb     
+3                    1          Bloqueado              Bloqueado              2          —               11 Kb     
+3                    1          Bloqueado              Despertar              2          —               11 Kb     
+1                    1          Ejecución              Vuelve a cola          10         Op. matemática  17 Kb     
+4                    9          Ejecución              Bloqueado              9          Teclado         72 Kb     
+6                    8          Listo                  Despachado             4          —               18 Kb     
+5                    9          Ejecución              Bloqueado              8          Bocinas         58 Kb     
+4                    9          Bloqueado              Bloqueado              9          —               72 Kb     
+4                    9          Bloqueado              Bloqueado              9          —               72 Kb     
+4                    9          Bloqueado              Bloqueado              9          —               72 Kb     
+4                    9          Bloqueado              Suspendido-bloqueado   9          —               72 Kb     
+6                    3          Ejecución              Bloqueado              4          Teclado         18 Kb     
+1                    1          Listo                  Despachado             10         —               17 Kb     
+2                    4          Listo                  Despachado             5          —               18 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    9          Bloqueado              Despertar              8          —               58 Kb     
+3                    1          Listo                  Despachado             2          —               11 Kb     
+6                    3          Bloqueado              Bloqueado              4          —               18 Kb     
+6                    3          Bloqueado              Suspendido-bloqueado   4          —               18 Kb     
+1                    0          Ejecución              Terminado              10         —               17 Kb     
+2                    0          Ejecución              Terminado              5          —               18 Kb     
+7                    4          Listo                  Despachado             3          —               91 Kb     
+4                    9          Suspendido-bloqueado   Suspendido-bloqueado   9          —               72 Kb     
+4                    9          Suspendido-bloqueado   Suspendido-listo       9          —               72 Kb     
+3                    0          Ejecución              Terminado              2          —               11 Kb     
+1                    0          Ejecución              Terminado              10         —               17 Kb     
+5                    9          Listo                  Despachado             8          —               58 Kb     
+2                    0          Ejecución              Terminado              5          —               18 Kb     
+7                    0          Ejecución              Terminado              3          —               91 Kb     
+4                    9          Suspendido-Listo       Formado                9          —               72 Kb     
+8                    1          Listo                  Despachado             10         —               63 Kb     
+6                    3          Suspendido-bloqueado   Suspendido-bloqueado   4          —               18 Kb     
+6                    3          Suspendido-bloqueado   Bloqueado              4          —               18 Kb     
+3                    0          Ejecución              Terminado              2          —               11 Kb     
+5                    4          Ejecución              Bloqueado              8          Bocinas         58 Kb     
+9                    15         Listo                  Despachado             7          —               66 Kb     
+7                    0          Ejecución              Terminado              3          —               91 Kb     
+8                    0          Ejecución              Terminado              10         —               63 Kb     
+5                    4          Bloqueado              Bloqueado              8          —               58 Kb     
+5                    4          Bloqueado              Suspendido-bloqueado   8          —               58 Kb     
+4                    9          Listo                  Despachado             9          —               72 Kb     
+9                    10         Ejecución              Bloqueado              7          Bocinas         66 Kb     
+10                   3          Listo                  Despachado             7          —               10 Kb     
+8                    0          Ejecución              Terminado              10         —               63 Kb     
+6                    3          Bloqueado              Bloqueado              4          —               18 Kb     
+6                    3          Bloqueado              Suspendido-bloqueado   4          —               18 Kb     
+4                    4          Ejecución              Vuelve a cola          9          Op. matemática  72 Kb     
+11                   12         Listo                  Despachado             6          —               24 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Suspendido-bloqueado   7          —               66 Kb     
+10                   0          Ejecución              Terminado              7          —               10 Kb     
+12                   13         Listo                  Despachado             7          —               28 Kb     
+5                    4          Suspendido-bloqueado   Suspendido-bloqueado   8          —               58 Kb     
+5                    4          Suspendido-bloqueado   Suspendido-listo       8          —               58 Kb     
+11                   7          Ejecución              Vuelve a cola          6          Op. matemática  24 Kb     
+10                   0          Ejecución              Terminado              7          —               10 Kb     
+6                    3          Suspendido-bloqueado   Suspendido-bloqueado   4          —               18 Kb     
+6                    3          Suspendido-bloqueado   Bloqueado              4          —               18 Kb     
+4                    4          Listo                  Despachado             9          —               72 Kb     
+12                   8          Ejecución              Vuelve a cola          7          Op. matemática  28 Kb     
+5                    4          Suspendido-Listo       Formado                8          —               58 Kb     
+9                    10         Suspendido-bloqueado   Suspendido-bloqueado   7          —               66 Kb     
+9                    10         Suspendido-bloqueado   Bloqueado              7          —               66 Kb     
+4                    0          Ejecución              Terminado              9          —               72 Kb     
+11                   7          Listo                  Despachado             6          —               24 Kb     
+6                    3          Bloqueado              Bloqueado              4          —               18 Kb     
+6                    3          Bloqueado              Despertar              4          —               18 Kb     
+4                    0          Ejecución              Terminado              9          —               72 Kb     
+11                   2          Ejecución              Vuelve a cola          6          Op. matemática  24 Kb     
+5                    4          Listo                  Despachado             8          —               58 Kb     
+12                   8          Listo                  Despachado             7          —               28 Kb     
+13                   7          Listo                  Despachado             2          —               3 Kb      
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Bloqueado              7          —               66 Kb     
+9                    10         Bloqueado              Suspendido-bloqueado   7          —               66 Kb     
+5                    0          Ejecución              Terminado              8          —               58 Kb     
+12                   3          Ejecución              Vuelve a cola          7          Op. matemática  28 Kb     
+13                   2          Ejecución              Bloqueado              2          Impresora       3 Kb      
+6                    3          Listo                  Despachado             4          —               18 Kb     
+5                    0          Ejecución              Terminado              8          —               58 Kb     
+11                   2          Listo                  Despachado             6          —               24 Kb     
+13                   2          Bloqueado              Bloqueado              2          —               3 Kb      
+13                   2          Bloqueado              Bloqueado              2          —               3 Kb      
+13                   2          Bloqueado              Bloqueado              2          —               3 Kb      
+13                   2          Bloqueado              Despertar              2          —               3 Kb      
+9                    10         Suspendido-bloqueado   Suspendido-bloqueado   7          —               66 Kb     
+9                    10         Suspendido-bloqueado   Suspendido-listo       7          —               66 Kb     
+6                    0          Ejecución              Terminado              4          —               18 Kb     
+12                   3          Listo                  Despachado             7          —               28 Kb     
+14                   8          Listo                  Despachado             3          —               39 Kb     
+11                   0          Ejecución              Terminado              6          —               24 Kb     

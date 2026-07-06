@@ -1,12 +1,5 @@
 ══════════════════════════════════════════════════════════════════════════════════════════
-  SIMULACIÓN SO  –  2026/06/29 08:09:07
+  SIMULACIÓN SO  –  2026/07/05 21:13:28
 ══════════════════════════════════════════════════════════════════════════════════════════
 PROCESO              CUANTUM    ESTADO                 TRANSICIÓN             PRIORIDAD  RECURSO         MEMORIA   
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-1                    2          Listo                  Despachado             2          —               19 Kb     
-2                    9          Listo                  Despachado             2          —               53 Kb     
-1                    0          Ejecución              Terminado (sin preempción) 2          —               19 Kb     
-3                    1          Listo                  Despachado             3          —               7 Kb      
-2                    9          Ejecución              Bloqueado              2          Monitor         53 Kb     
-4                    6          Listo                  Despachado             10         —               86 Kb     
-1                    0          Ejecución              Terminado (sin preempción) 2          —               19 Kb     
